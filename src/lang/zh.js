@@ -1,0 +1,193 @@
+// $t('')
+// {{$t('')}}
+export default {
+  NAV_DASHBOARD: '首页',
+  NAV_USERS: '用户信息',
+  NAV_PARENTS: '家长',
+  NAV_CHILDREN: '学生',
+  NAV_ADMISSIONS: '入学申请',
+  NAV_INTERVIEW: '面试',
+  NAV_SETTINGS: '设置',
+  NAV_PROJECTS: '项目编辑',
+  NAV_STEPS: '步骤编辑',
+  NAV_FORMS: '表单编辑',
+
+
+
+  USER_INFORMATION: '用户信息',
+  USER_ACCOUNT_INFO: '账户信息',
+  USER_FAMILY_INFO: '家庭信息',
+  USER_KIDS_INFO: '孩子信息',
+  USERS_NAME: '名字',
+
+  USERS_STATUS: '激活状态',
+
+  USERS_ID: '编号',
+
+  USERS_EMAIL: '电子邮件',
+
+  USERS_SEX: '性别',
+
+  USERS_BIRTHDAY: '生日',
+
+  USERS_PARENTS_NAME: '家长名字',
+
+  USERS_PARENTS_PHONE: '家长电话',
+
+  USERS_APPLICATION_RECORD: '申请记录',
+
+  USERS_PHONE: '电话',
+
+  USERS_REGISTER_TIME: '注册时间',
+
+  USERS_OPERATE: '操作',
+
+  USERS_DETAIL: '详情',
+
+  USERS_QUERY: '查询',
+
+  USERS_RESET: '重置',
+
+
+
+  ADMISSION_ENROLLMENT_YEAR: '申请年份',
+  ADMISSION_PROJECT_NAME: '项目名字',
+  ADMISSION_APPLICANTS: '申请人数',
+  ADMISSION_OPERATE: '操作',
+  ADMISSSION_DETAIL: '详情',
+  ADMISSION_STEP: '申请步骤',
+  ADMISSION_STEP_ID: '步骤编号',
+  ADMISSION_STEP_NAME: '步骤名',
+  ADMISSION_ID: '申请编号',
+  ADMISSION_STUDENT: '学生',
+  ADMISSION_PARENTS: '家长',
+  ADMISSION_SEX: '性别',
+  ADMISSION_BIRTHDAY: '生日',
+  ADMISSION_CELL_PHONE: '手机',
+  ADMISSION_PARENTS_EMAIL: '家长邮箱',
+  ADMISSION_ENROLLMENT_GRADE: '申请年级',
+  ADMISSION_QUERY: '查询',
+  ADMISSION_RESET: '重置',
+  ADMISSION_TIME: '提交时间',
+  ADMISSION_BASE_INFO: '基本信息',
+  ADMISSION_APPLICATION_DETAILS: '申请内容',
+  ADMISSION_PROCESS: '申请过程',
+  ADMISSION_FORM: '表格',
+  ADMISSION_PAYMENT: '付款',
+  ADMISSION_BACK: '返回',
+  ADMISSION_REFUSE: '拒绝',
+  ADMISSION_PASS: '通过',
+  ADMISSION_NEXT: '查看下一个',
+  ADMISSION_REVERSION: '退回修改',
+  ADMISSION_PAY_FOR: '费用用途',
+  ADMISSION_PRICE: '金额',
+  ADMISSION_PAYMENT_STATUS: '付款状态',
+  ADMISSION_PAYMENT_TYPE: '付款方式',
+  ADMISSION_PAYMENT_TIME: '付款时间',
+  ADMISSION_PAYMENT_ID: '流水号',
+  ADMISSION_REMARK: '备注',
+
+  INTERVIEW_LIST: '面试列表',
+  INTERVIEW_ENROLLMENT_YEAR: '申请年份',
+  INTERVIEW_ENROLLMENT_GRADE: '申请年级',
+  INTERVIEW_PROJECT_NAME: '项目名字',
+  INTERVIEW_APPLICANTS: '申请人数',
+  INTERVIEW_OPERATE: '操作',
+  INTERVIEW_DETAIL: '详情',
+  INTERVIEW_ID: '面试编号',
+  INTERVIEW_GROUP: '面试分组',
+  INTERVIEW_GROUPS: '面试分组',
+  INTERVIEW_INDEX: '序号',
+  INTERVIEW_STUDENT: '学生',
+  INTERVIEW_STATUS: '状态',
+  INTERVIEW_TIME: '发送时间',
+  INTERVIEW_BEGIN_INTERVIEW: '开始面试',
+  INTERVIEW_QUERY: '查询',
+
+  INTERVIEW_RESET: '重置',
+
+  INTERVIEW_SEND_MESSAGE: '发送通知',
+
+  INTERVIEW_FINISH: '完成',
+
+  INTERVIEW_UN_FINISH: '未完成',
+
+  INTERVIEW_BASE_INFO: '基本信息',
+
+  INTERVIEW_SEX: '性别',
+
+  INTERVIEW_BIRTHDAY: '生日',
+
+  INTERVIEW_PARENTS: '家长',
+
+  INTERVIEW_EMAIL: '电子邮箱',
+
+  INTERVIEW_CELL_PHONE: '手机号',
+
+
+  INTERVIEW_FROM_DETAIL: '面试内容',
+
+  INTERVIEW_OPINION: '面试官意见',
+
+  INTERVIEW_SUBMIT: '提交',
+
+  INTERVIEW_CANCEL: '取消',
+
+  INTERVIEW_FORM_INDEX: '序号',
+
+  INTERVIEW_TEST_CONTENT: '测试项目',
+
+  INTERVIEW_REQUIRE: '评测要求',
+
+  INTERVIEW_GRADE: '评分',
+
+
+  FORM_CHECK_ALL: '全选',
+  FORM_SHOW_TYPE: '显示类型',
+  FORM_SHOW_TITLE: '显示标题',
+  FORM_CHANGE_LANGUAGE: '语言切换',
+  FORM_OPEN: '展开',
+  FORM_CLOSE: '缩起',
+  FORM_DELETE: '删除',
+  FORM_COPY_THE_CURRENT_SECTION: '复制当前章节',
+  FORM_ADD_A_SECTION: '新增一章',
+  FORM_TIPS: '提示信息',
+  FORM_TEXTBOX: '输入框',
+  FORM_TEXTAREA: '文本域',
+  FORM_RADIO: '单选',
+  FORM_CHECKBOX: '多选',
+  FORM_SELECT: '下拉选',
+  FORM_DATEPICKER: '时间选择',
+  FORM_TABLE: '表格输入框',
+  FORM_DOWNLOAD: '下载',
+  FORM_UPLOAD: '上传',
+  FORM_EDIT: '编辑',
+  FORM_COPY: '复制',
+  FORM_CHANGE_THE_CURRENT_SECTION_NAME: '修改当前章节名字',
+  FORM_DRAG_FROM_THE_RIGHT_SIDE: '从右侧表单组件中拖拽',
+  FORM_CANCEL: '取消',
+  FORM_CONFIRM: '确认',
+  FORM_NO_TITLE: '没有标题',
+  FORM_EDIT_SECTION: '编辑章节',
+  STEP_FORM: '填表',
+  STEP_INTERVIEW: '面试',
+  STEP_PAYMENT: '付款',
+  STEP_ADMISSION: '通知书',
+  STEP_TITLE: '标题',
+  STEP_TYPE: '类型',
+
+
+  PROJECT_NAME: '项目名称',
+
+  PROJECT_DESCRIPTION: '项目描述',
+
+  PROJECT_GRADE: '招生等级',
+
+  PROJECT_TYPE: '类型',
+
+  PROJECT_PREFIX: '项目编号前缀',
+
+  PROJECT_PROCESS: '过程',
+
+
+}
